@@ -102,8 +102,8 @@
 
 .bk{
  
-   background-image: url("./images/quran.jpg"); 
-   position: relative;
+  background-image: url("./images/quran.jpg");  
+   position:fixed;
    min-width: 100%;
    min-height: 100%;
    background-size: cover;
@@ -175,8 +175,8 @@
 .my-3{
 font-size: 3rem; 
 font-weight: bolder;
-padding-top: 150px;
-padding-left: 520px;
+padding-top: 30px;
+padding-left: 30px;
 text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 color: #faecec;
 font-family:Arial, Helvetica, sans-serif;
@@ -605,34 +605,51 @@ margin-left: 2%;
 }
 /*feedback form*/
 .feedback-container {
-  margin-top: 40px;
+  margin: 40px auto;
   padding: 30px;
-margin-left: 40px;
   border-radius: 5px;
   text-align: center;
+  max-width: 600px; /* Add a max-width for responsiveness */
+  background-color: #f7f7f7; /* Add a background color for contrast */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
 }
 
 .feedback-title {
   font-size: 34px;
   font-weight: bold;
-  margin-bottom: 50px;
-text-shadow: #007bff;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   font-family: 'Times New Roman', Times, serif;
-  position:center ;
-  text-align: center;
 }
 
 .feedback-button {
   background-color: #045357;
   color: white;
-  border:#000;
+  border: 1px solid #000;
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
   border-radius: 5%;
-  margin-top: 40px;
-
+  margin-top: 20px;
 }
+
+/* Add a media query for smaller screens */
+@media (max-width: 768px) {
+  .feedback-container {
+    margin-top: 20px;
+    padding: 20px;
+  }
+  
+  .feedback-title {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+  
+  .feedback-button {
+    margin-top: 15px;
+  }
+}
+
 .Paragraph{
   font-family: 'Times New Roman', Times, serif;
   font-size: large;
