@@ -17,7 +17,7 @@ const FeedbackForm = () => {
          If you have any suggestions, questions, or comments</p>
        <p className= "Paragraph"> regarding our Pedagogic Quran E-Book, please let us know by filling out</p> 
       <p className= "Paragraph">  the form below. Your feedback will help us improve our service. Thank
-        you!
+        you so much!
       </p>
       <button className="feedback-button" onClick={handleFeedback}>
         Submit Feedback
