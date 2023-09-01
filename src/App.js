@@ -229,7 +229,7 @@ const App = () => {
         <>
         <div className="App">
           <BrowserRouter basename ="/pedagogic-quran">
-      {}
+      
       <Footer />
       </BrowserRouter>
     </div>
@@ -411,9 +411,13 @@ const App = () => {
                     
             
             <Route component ={Error} />
+            
             <Redirect to=" " />
+            
         </Switch>
+        
         </>
+        
     );
 
 }; 
