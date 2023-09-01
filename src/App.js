@@ -186,7 +186,7 @@ import"./Font/NotoNastaliqUrdu-VariableFont_wght.ttf";
 import"./Font/110_Besmellah Normal.ttf";
 import"./Font/Amiri-Bold.ttf";
 import"./Font/Coors_Script_Regular.ttf";
-import { BrowserRouter } from "react-router-dom/cjs/react-router-dom.min";
+
 const App = () => {
     console.log(Records);
     console.log(Record);
@@ -228,14 +228,14 @@ const App = () => {
     return (
         <>
         <div className="App">
-          <BrowserRouter Basename ={ process.env.PUBLIC_URL}>
+          
       
       <Footer />
-      </BrowserRouter>
+    
     </div>
         <Navbar/>
         <Switch>
-            <Route exact path="/pedagogic-quran" component ={Home} />
+            <Route exact path="/" component ={Home} />
             <Route exact path="/About" component ={About} />
             <Route exact path="/Translation" component ={Translation} />
             <Route exact path="/Grammar" component ={Grammar} />
