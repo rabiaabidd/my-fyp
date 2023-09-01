@@ -228,7 +228,7 @@ const App = () => {
     return (
         <>
         <div className="App">
-          <BrowserRouter basename ="/pedagogic-quran">
+          <BrowserRouter Basename ={ process.env.PUBLIC_URL}>
       
       <Footer />
       </BrowserRouter>
