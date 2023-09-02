@@ -186,7 +186,7 @@ import"./Font/NotoNastaliqUrdu-VariableFont_wght.ttf";
 import"./Font/110_Besmellah Normal.ttf";
 import"./Font/Amiri-Bold.ttf";
 import"./Font/Coors_Script_Regular.ttf";
-import { BrowserRouter } from "react-router-dom/cjs/react-router-dom.min";
+
 
 const App = () => {
     console.log(Records);
@@ -235,7 +235,7 @@ const App = () => {
     
     </div>
         <Navbar/>
-        <BrowserRouter basename="/quran-web"> 
+ 
         <Switch>
             <Route exact path="/" component ={Home} />
             <Route exact path="/About" component ={About} />
@@ -417,7 +417,7 @@ const App = () => {
             <Redirect to=" " />
             
         </Switch>
-        </BrowserRouter>
+     
         
         </>
         
