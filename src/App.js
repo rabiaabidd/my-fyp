@@ -236,7 +236,7 @@ const App = () => {
     
     </div>
         <Navbar/>
-        <Router basename="quran-web">
+        <Router basename="/quran-web">
       
         <Switch>
             <Route exact path="/" component ={Home} />
