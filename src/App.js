@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Route, Switch } from "react-router-dom";
 import Records from './json/114SurahNaas/SurahNaas.json';
 import Record from './json/113SurahFalak/SurahFalakTranslation.json';
 import Record112 from './json/112SurahIkhlas/SurahIkhlasTranslation.json';
@@ -236,7 +236,7 @@ const App = () => {
     
     </div>
         <Navbar/>
-        <Router basename="/quran-web">
+        
       
         <Switch>
             <Route exact path="/" component ={Home} />
@@ -420,7 +420,7 @@ const App = () => {
             
         </Switch>
      
-        </Router>
+    
         </>
         
     );
