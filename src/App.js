@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Records from './json/114SurahNaas/SurahNaas.json';
 import Record from './json/113SurahFalak/SurahFalakTranslation.json';
 import Record112 from './json/112SurahIkhlas/SurahIkhlasTranslation.json';
@@ -177,7 +178,7 @@ import SurahLahab111WBW from "./Js Files/WBW & Grammar/Surah Lahab";
 
 
 
-import { Switch, Route, Redirect } from "react-router-dom";
+import {  Redirect } from "react-router-dom";
 import"./Font/_PDMS_Saleem_QuranFont.ttf";
 import"./Font/Lateef-Regular.ttf";
   import"./Font/NotoSansArabic-VariableFont_wdth,wght.ttf"; 
@@ -235,7 +236,8 @@ const App = () => {
     
     </div>
         <Navbar/>
- 
+        <Router basename="/quran-web">
+      
         <Switch>
             <Route exact path="/" component ={Home} />
             <Route exact path="/About" component ={About} />
@@ -418,7 +420,7 @@ const App = () => {
             
         </Switch>
      
-        
+        </Router>
         </>
         
     );
