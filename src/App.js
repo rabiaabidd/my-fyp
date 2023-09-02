@@ -237,7 +237,7 @@ const App = () => {
         <Navbar/>
         <BrowserRouter basename="/quran-web"> 
         <Switch>
-            <Route exact path="/quran-web" component ={Home} />
+            <Route exact path="/" component ={Home} />
             <Route exact path="/About" component ={About} />
             <Route exact path="/Translation" component ={Translation} />
             <Route exact path="/Grammar" component ={Grammar} />
