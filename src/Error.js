@@ -16,7 +16,7 @@ const Home = () => {
             <strong className = "brand-name"></strong> 
             </center></h2> */}
                      <h1 className="my-3"><center>
-                     Welcome the Quran E-Book
+                     Welcome the  Pedagogic Quran E-Book 
                      </center></h1>
                      <div className="mt-3">
                         
