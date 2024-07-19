@@ -30,7 +30,7 @@ const Navbar = () => {
             <div className="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
               <ul className="navbar-nav">
                 <li className="nav-item">
-                  <NavLink exact className="nav-link" to="/">
+                  <NavLink exact className="nav-link" to="/quraancorpus">
                     Home
                   </NavLink>
                 </li>

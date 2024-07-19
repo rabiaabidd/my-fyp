@@ -177,7 +177,7 @@ function SurahQariahWBW() {
                         </td>
                       ))}
                     </tr>
-                    <tr className="WMG">
+                    {/*<tr className="WMG">
                       <th className="th2">  گرامر</th>
                       {record.Grammar.map((grammar, grammarIndex) => (
                         <td
@@ -188,7 +188,7 @@ function SurahQariahWBW() {
                           {grammar}
                         </td>
                       ))}
-                    </tr>
+                      </tr>*/}
                     <tr className="tr1">
                       <th className="th2" id="th1">
                         بامحاورہ ترجمہ

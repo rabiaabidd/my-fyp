@@ -46,7 +46,7 @@ import Grammar from './Grammar';
 
 import Navbar from "./Navbar";
 import FeedbackForm from "./FeedbackForm";
-import Error from './Error';
+
 import Footer from "./Footer";
 
 /*Translation*/
@@ -232,7 +232,7 @@ const App = () => {
     </div>
         <Navbar/>
         <Switch>
-            <Route exact path="/" component ={Home} />
+            <Route exact path="/quraancorpus" component ={Home} />
             <Route exact path="/About" component ={About} />
             <Route exact path="/Translation" component ={Translation} />
             <Route exact path="/Grammar" component ={Grammar} />
@@ -252,7 +252,7 @@ const App = () => {
           <Route exact path="/Translation/Surah Tariq"component={SurahTariqTranslation}/>
           <Route exact path="/Translation/Surah Aala"component={SurahAalaTranslation}/>
           <Route exact path="/Translation/Surah Ghashia"component={SurahGhashiaTranslation}/>
-                  <Route exact path="/Translation/Surah Fajr"component={SurahFajrTranslation}/>
+           <Route exact path="/Translation/Surah Fajr"component={SurahFajrTranslation}/>
           <Route exact path="/Translation/Surah Balad"component={SurahBaladTranslation}/>
           <Route exact path="/Translation/Surah Shams"component={SurahShamsTranslation}/>
           <Route exact path="/Translation/Surah AlLail"component={SurahAlLailTranslation}/>
@@ -407,7 +407,7 @@ const App = () => {
             
                     
             
-            <Route component ={Error} />
+            
             <Redirect to=" " />
         </Switch>
         </>

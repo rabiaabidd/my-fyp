@@ -166,7 +166,7 @@ function SurahKausar108WBW() {
                         </td>
                       ))}
                     </tr>
-                    <tr className="WMG">
+                    {/*<tr className="WMG">
                       <th className="th2">لفظی ترجمہ</th>
                       {record.Meaning.map((meaning, meaningIndex) => (
                         <td
@@ -177,7 +177,7 @@ function SurahKausar108WBW() {
                           {meaning}
                         </td>
                       ))}
-                    </tr>
+                      </tr>*/}
                     <tr className="WMG">
                       <th className="th2">  گرامر</th>
                       {record.Grammar.map((grammar, grammarIndex) => (
